@@ -16,7 +16,6 @@ io.on('connection', socket => {
   });
 });
 
-// todo: listen portはこれだけでいいのか？
 http.listen(4000, () => {
   console.log('listening on 4000 ...');
 });
